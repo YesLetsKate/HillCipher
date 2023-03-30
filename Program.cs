@@ -11,8 +11,8 @@ namespace HillCipher
         static void Main(string[] args)
         {
             HillCipher hillCipher = new HillCipher();
-            string path = @"C:\Users\Yesle\Desktop\_-_\КМЗИ\Практ2\text.txt";
-            hillCipher.Encryprt("дорогатут", path);
+            string path = @"C:\Users\Yesle\Desktop\_-_\КМЗИ\Практ2\cipher.txt";
+            hillCipher.Decrypt("дорогатут", path);
         }
     }
 }
