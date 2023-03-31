@@ -10,9 +10,13 @@ namespace HillCipher
     {
         static void Main(string[] args)
         {
-            HillCipher hillCipher = new HillCipher();
+            //HillCipher hillCipher = new HillCipher();
+            //string path = @"C:\Users\Yesle\Desktop\_-_\КМЗИ\Практ2\cipher.txt";
+            //hillCipher.Decrypt("дорогатут", path);
+
+            RecurrentHillCipher hillCipher = new RecurrentHillCipher();
             string path = @"C:\Users\Yesle\Desktop\_-_\КМЗИ\Практ2\cipher.txt";
-            hillCipher.Decrypt("дорогатут", path);
+            hillCipher.Decrypt("дорогатут","свитчкейс", path);
         }
     }
 }
